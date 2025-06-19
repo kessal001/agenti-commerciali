@@ -36,4 +36,5 @@ export type Agent = {
     prov_dest?: string
     cap_dest?: string
     created_at: string
+      riba?: 'DF' | 'DF_FM' | 'ALTRO';
   }
